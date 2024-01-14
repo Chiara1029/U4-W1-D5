@@ -6,7 +6,7 @@ import it.exercise.classes.Video;
 import java.util.Scanner;
 
 public class Main {
-    static MultimediaElement[] mediaPlayer = new MultimediaElement[3];
+    static MultimediaElement[] mediaPlayer = new MultimediaElement[5];
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
