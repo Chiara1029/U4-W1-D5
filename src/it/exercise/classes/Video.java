@@ -18,7 +18,9 @@ public class Video extends MultimediaElement implements Volume, Brightness {
 
     @Override
     public void brightnessUp() {
-        brightness++;
+        if (brightness < 5) {
+            brightness++;
+        }
     }
 
     @Override
